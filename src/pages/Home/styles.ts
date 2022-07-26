@@ -38,10 +38,16 @@ export const InfoIcons = styled.div`
   width: 567px;
   height: 84px;
   margin-top: 66px;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
   grid-template-columns: 1fr 1fr;
+  border: 1px solid red;
 `
 export const IconShopping = styled.div``
 export const IconTimer = styled.div``
 export const IconPackeage = styled.div``
 export const IconCoffee = styled.div``
+export const IconShoppingDiv = styled.div``
+export const FirstLine = styled.div``
+export const SecondLine = styled.div``
