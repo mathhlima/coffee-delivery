@@ -9,6 +9,10 @@ import {
   IntroImage,
   FirstLine,
   SecondLine,
+  IconShopping,
+  IconTimer,
+  IconPackeage,
+  IconCoffee,
 } from './styles'
 import coffeeDelivery from '../../assets/copo-coffe.svg'
 import { ShoppingCart, Timer, Package, Coffee } from 'phosphor-react'
@@ -33,29 +37,26 @@ export function Home() {
 
           <InfoIcons>
             <FirstLine>
-              <button>
-                <ShoppingCart />
-              </button>
-
+              <IconShopping>
+                <ShoppingCart size={16} color="#FFFFFF" weight="fill" />
+              </IconShopping>
               <p>Compra simples e segura</p>
-
-              <button>
-                <Timer />
-              </button>
-
-              <p>Entrega rápida e rastreada</p>
+              <IconTimer>
+                <Timer size={16} color="#FFFFFF" weight="fill" />
+              </IconTimer>
+              <p>Embalagem mantém o café intacto</p>
             </FirstLine>
 
             <SecondLine>
-              <button>
-                <Package />
-              </button>
+              <IconPackeage>
+                <Package size={16} color="#FFFFFF" weight="fill" />
+              </IconPackeage>
 
-              <p>Embalagem mantém o café intacto</p>
+              <p>Entrega rápida e rastreada</p>
 
-              <button>
-                <Coffee />
-              </button>
+              <IconCoffee>
+                <Coffee size={16} color="#FFFFFF" weight="fill" />
+              </IconCoffee>
 
               <p>O café chega fresquinho até você</p>
             </SecondLine>

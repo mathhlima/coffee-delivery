@@ -2,8 +2,6 @@ import styled from 'styled-components'
 
 export const HomeContainer = styled.main`
   height: 544px;
-  border: 1px solid red;
-  background-image: url('../../assets/background.png');
 `
 
 export const Intro = styled.div`
@@ -39,23 +37,61 @@ export const InfoIcons = styled.div`
   height: 84px;
   margin-top: 66px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  button {
+  span {
     width: 32px;
     height: 32px;
   }
 `
-export const IconShopping = styled.div``
-export const IconTimer = styled.div``
-export const IconPackeage = styled.div``
-export const IconCoffee = styled.div``
-export const IconShoppingDiv = styled.div``
+export const IconShopping = styled.div`
+  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+  background: ${(props) => props.theme['yellow-dark']};
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+export const IconTimer = styled.div`
+  margin-right: 12px;
+  margin-left: 40px;
+  width: 32px;
+  height: 32px;
+  background: ${(props) => props.theme['yellow-normal']};
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+export const IconPackeage = styled.div`
+  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+  background: ${(props) => props.theme['base-text']};
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+export const IconCoffee = styled.div`
+  margin-right: 12px;
+  margin-left: 36px;
+  width: 32px;
+  height: 32px;
+  background: ${(props) => props.theme['purple-normal']};
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 export const FirstLine = styled.div`
   display: flex;
-  justify-content: ;
+  width: 576px;
+  justify-content: start;
 `
 export const SecondLine = styled.div`
   display: flex;
-  justify-content: start;
 `
