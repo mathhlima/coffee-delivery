@@ -33,15 +33,30 @@ export function Home() {
 
           <InfoIcons>
             <FirstLine>
-              <ShoppingCart />
+              <button>
+                <ShoppingCart />
+              </button>
+
               <p>Compra simples e segura</p>
-              <Timer />
+
+              <button>
+                <Timer />
+              </button>
+
               <p>Entrega rápida e rastreada</p>
             </FirstLine>
+
             <SecondLine>
-              <Package />
+              <button>
+                <Package />
+              </button>
+
               <p>Embalagem mantém o café intacto</p>
-              <Coffee />
+
+              <button>
+                <Coffee />
+              </button>
+
               <p>O café chega fresquinho até você</p>
             </SecondLine>
           </InfoIcons>
