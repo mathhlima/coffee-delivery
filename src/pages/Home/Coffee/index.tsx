@@ -1,3 +1,11 @@
+import coffees from '../../../local-json/coffee.json'
+
 export function OurCoffee() {
-  return <h1>Nossos cafés</h1>
+  return (
+    <div>
+      {coffees.map(({ name, id }) => (
+        <div key={id}>{name}</div>
+      ))}
+    </div>
+  )
 }
