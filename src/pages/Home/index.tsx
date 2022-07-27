@@ -16,6 +16,7 @@ import {
 } from './styles'
 import coffeeDelivery from '../../assets/copo-coffe.svg'
 import { ShoppingCart, Timer, Package, Coffee } from 'phosphor-react'
+import { OurCoffee } from './Coffee'
 
 export function Home() {
   return (
@@ -67,6 +68,8 @@ export function Home() {
           <img src={coffeeDelivery} alt="" />
         </IntroImage>
       </Intro>
+
+      <OurCoffee />
     </HomeContainer>
   )
 }
