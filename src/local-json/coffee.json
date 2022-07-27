@@ -4,6 +4,7 @@
         "name": "Expresso Tradicional",
         "description": "O tradicional café feito com água quente e grãos moídos",
         "type": "TRADICIONAL",
+        "img": "src/assets/coffee/Type=Expresso.png",
         "value": 9.90
     },
     {
@@ -11,6 +12,7 @@
         "name": "Expresso Americano",
         "description": "Expresso diluído, menos intenso que o tradicional",
         "type": "TRADICIONAL",
+        "img": "src/assets/coffee/Type=Americano.png",
         "value": 9.90
     },
     {
@@ -18,6 +20,7 @@
         "name": "Expresso Cremoso",
         "description": "Café expresso tradicional com espuma cremosa",
         "type": "TRADICIONAL",
+        "img": "src/assets/coffee/Type=Expresso Cremoso.png",
         "value": 9.90
     },
     {
@@ -28,6 +31,7 @@
             "TRADICIONAL",
             "GELADO"
         ],
+        "img": "src/assets/coffee/Type=Café Gelado.png",
         "value": 9.90
     },
     {
@@ -38,6 +42,7 @@
             "tradicional",
             "com leite"
         ],
+        "img": "src/assets/coffee/Type=Café com Leite.png",
         "value": 9.90
     },
     {
@@ -48,6 +53,7 @@
             "Tradicional",
             "com leite"
         ],
+        "img": "src/assets/coffee/Type=Latte.png",
         "value": 9.90
     },
     {
@@ -58,6 +64,7 @@
             "Tradicional",
             "com leite"
         ],
+        "img": "src/assets/coffee/Type=Capuccino.png",
         "value": 9.90
     },
     {
@@ -68,6 +75,7 @@
             "Tradicional",
             "com leite"
         ],
+        "img": "src/assets/coffee/Type=Macchiato.png",
         "value": 9.90
     },
     {
@@ -78,6 +86,7 @@
             "Tradicional",
             "com leite"
         ],
+        "img": "src/assets/coffee/Type=Mochaccino.png",
         "value": 9.90
     },
     {
@@ -88,6 +97,7 @@
             "Especial",
             "com leite"
         ],
+        "img": "src/assets/coffee/Type=Chocolate Quente.png",
         "value": 9.90
     },
     {
@@ -99,6 +109,7 @@
             "alcoólico",
             "Gelado"
         ],
+        "img": "src/assets/coffee/Type=Cubano.png",
         "value": 9.90
     },
     {
@@ -106,6 +117,7 @@
         "name": "Havaiano",
         "description": "Bebida adocicada preparada com café e leite de coco",
         "type": "Especial",
+        "img": "src/assets/coffee/Type=Havaiano.png",
         "value": 9.90
     },
     {
@@ -113,6 +125,7 @@
         "name": "Árabe",
         "description": "Bebida preparada com grãos de café árabe e especiarias",
         "type": "Especial",
+        "img": "src/assets/coffee/Type=Árabe.png",
         "value": 9.90
     },
     {
@@ -123,6 +136,7 @@
             "Especial",
             "alcoólico"
         ],
+        "img": "src/assets/coffee/Type=Irlandês.png",
         "value": 9.90
     }
 ]
