@@ -1,9 +1,16 @@
 import styled from 'styled-components'
 
+export const OurCoffeeContainer = styled.div`
+  margin-left: 160px;
+  margin-right: 160px;
+`
+
 export const CoffeeContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  border: 1px solid red;
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
 `
 
 export const CardCoffee = styled.div`
@@ -11,6 +18,4 @@ export const CardCoffee = styled.div`
   height: 310px;
   background: ${(props) => props.theme['base-card']};
   border-radius: 6px 36px;
-  margin-left: 160px;
-  margin-right: 160px;
 `
